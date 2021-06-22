@@ -28,7 +28,7 @@ namespace Books
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello Azure World!!!!!!! ");
-                await context.Response.WriteAsync("This continuous deployment from Visual Studio");
+                await context.Response.WriteAsync("This is continuous deployment from Visual Studio");
             });
         }
     }
